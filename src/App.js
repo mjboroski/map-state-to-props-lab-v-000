@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <UserInput store={this.props.store}/>
-        <ConnectedUsers />
+        <Users />
       </div>
     );
   }
